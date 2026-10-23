@@ -1,0 +1,11 @@
+{
+  "appId": "ir.divarmelki.app",
+  "appName": "خانه‌یاب",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": false
+  }
+}

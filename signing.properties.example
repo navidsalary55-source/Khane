@@ -1,0 +1,4 @@
+# این فایل را با اسم signing.properties (بدون .example) و با رمزهای خودت بساز
+storePassword=رمز-فایل-کلید
+keyAlias=divarmelki
+keyPassword=رمز-کلید

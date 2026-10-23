@@ -1,0 +1,25 @@
+{
+  "name": "khaneyab-android",
+  "version": "1.1.0",
+  "private": true,
+  "description": "خانه‌یاب — بسته‌ی اندروید (Capacitor)",
+  "scripts": {
+    "bundle": "node scripts/vendor-assets.mjs",
+    "setup": "npx cap add android && node scripts/patch-android.mjs && node scripts/prepare-android.mjs && npx capacitor-assets generate --android && npx cap sync android",
+    "update": "node scripts/prepare-android.mjs && npx capacitor-assets generate --android && npx cap sync android",
+    "sync": "npx cap sync android",
+    "open": "npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/app": "^7.0.0",
+    "@capacitor/core": "^7.0.0",
+    "leaflet": "1.9.4",
+    "@supabase/supabase-js": "^2.45.0",
+    "vazirmatn": "^33.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^7.0.0"
+  }
+}
